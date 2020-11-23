@@ -1,17 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[18]:
-
-
 #Addition of two number:
 num1 = input("enter a number")
 num2 = input("enter a number")
 sum = int(num1)+int(num2)
 print("the addition of two number is {0}".format(sum))
-
-
-# In[21]:
 
 
 #check maximum between two number:
@@ -23,9 +14,6 @@ else:
     print(" b is maximum {1}".format(b))
 
 
-# In[31]:
-
-
 #factorial number:
 num=int(input("enter the number"))
 fact=1
@@ -34,20 +22,12 @@ for i in range(1,num+1):
     fact=fact*i
 print("factorials is",fact)
 
-
-# In[35]:
-
-
 #find simple interest:
 p = int(input("enter the principle amount"))
 t = int(input("enter the time"))
 r = int(input("enter the rate"))
 simpleinterest=(p*t*r)/100
 print("the simple interest is ", simpleinterest)
-
-
-# In[43]:
-
 
 #check whether the number is armstrong number or not:
 n=int(input("enter a number"))
@@ -65,10 +45,6 @@ else:
     print(" it is not a Armstrong number",copy_n)
     
 
-
-# In[46]:
-
-
 #check whether a number is prime or not:
 n=int(input("enter a number"))
 count=0
@@ -83,13 +59,7 @@ else:
     print("not a prime number")
 
 
-# In[ ]:
 
-
-#Python program to print all Prime numbers in an Interval:
-
-
-# In[ ]:
 
 
 
