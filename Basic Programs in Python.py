@@ -83,7 +83,23 @@ celsius = 37.5
 fahrenheit = (celsius * 1.8) + 32
 print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahrenheit))
 
+# Python program to check if year is a leap year or not
 
+year = 2000
+
+# To get year (integer input) from the user
+# year = int(input("Enter a year: "))
+
+if (year % 4) == 0:
+   if (year % 100) == 0:
+       if (year % 400) == 0:
+           print("{0} is a leap year".format(year))
+       else:
+           print("{0} is not a leap year".format(year))
+   else:
+       print("{0} is a leap year".format(year))
+else:
+   print("{0} is not a leap year".format
 
 
 
