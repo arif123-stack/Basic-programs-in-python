@@ -4,7 +4,7 @@ num2 = input("enter a number")
 sum = int(num1)+int(num2)
 print("the addition of two number is {0}".format(sum))
 
-
+#-----------------------------------------------
 #check maximum between two number:
 a=int(input("enter a number"))
 b=int(input("enter a number"))
