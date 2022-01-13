@@ -659,3 +659,9 @@ def hash_file(filename):
 
 message = hash_file("track1.mp3")
 print(message)
+rows = int(input("Enter number of rows: "))
+
+for i in range(rows):
+    for j in range(i+1):
+        print("* ", end="")
+    print("\n")
